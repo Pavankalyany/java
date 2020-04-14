@@ -1,0 +1,17 @@
+import java.util.Scanner;
+import java.util.*;
+public class Days {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int remdays,year,days,m=3456789,hours;
+hours=m/60;      //minutes is converted into hours
+days=hours/24;
+
+year=days/365;
+remdays=days%365;
+System.out.println("total years:   "+year);
+System.out.println("remaining days:    "+remdays);
+}
+
+}
